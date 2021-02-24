@@ -1,0 +1,202 @@
+body{
+    background-color: #000;
+}
+
+/*img de fondo*/
+.Fondo{
+    height: 750px;
+    background-size: cover;
+    background: rgba(7, 7, 7, 0.5) url('https://images.pexels.com/photos/4056633/pexels-photo-4056633.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260') no-repeat center;
+}
+
+/*-----------------------------------------------------------------lista de fondo que contiene nombre y titulo--------------------------------*/
+.Fondo ul{
+    font-family: Tahoma, Geneva, sans-serif;
+    position: relative;
+    top: 230px;
+    width: 500px;
+    height: 200px;
+    left: 425px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+.Fondo li{
+    padding: 0px 100px 0px 0px;
+}
+
+.Fondo ul p{
+    color: royalblue;
+    padding: 0px 30px 0px 0px;
+}
+
+.Fondo h1{
+    font-size: 2em;
+}
+/*-----------------------------------------------------------------fin lista de fondo*/
+
+/*-----------------------------------------------------------------------menu-----------------------------------------------------------------*/
+.logo{
+    font-family: Tahoma, Geneva, sans-serif;
+    position: fixed;
+    left: 50px;
+    top: 10px;
+    float: left;
+    margin: 0;
+    color: royalblue;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+li{
+    float: right;
+}
+
+li a{
+    font-family: Tahoma, Geneva, sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+ul h2 a{
+    text-decoration: none;
+    color: royalblue;
+}
+
+a:hover{
+    color: royalblue;
+}
+/*-----------------------------------------------------------------------fin menu*/
+
+/*-----------------------------------------------------------------------Acerca-----------------------------------------------------------*/
+.About{
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: rgba(14, 14, 14, 0.5);
+    color: white;
+    padding: 20px 100px 450px 100px;
+    text-align: justify;
+}
+
+.About h1{
+    font-size: 2em;
+    padding: 0px 0px 0px 500px;
+}
+
+.Programas img{
+    margin: 50px 0px 50px 50px;
+    height: 50px;
+    width: 90px;
+}
+
+.Programas{
+    background-color: rgb(31, 31, 31);
+}
+/*-----------------------------------------------------------------------fin Acerca*/
+
+/*-----------------------------------------------------------------------Proyectos-----------------------------------------------------------*/
+.Demos{
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    padding: 20px 100px 350px 100px;
+}
+
+.Demos h1{
+    font-size: 2em;
+    padding: 0px 0px 0px 500px;
+}
+
+.Imagenes{
+    display: grid;
+    grid-template-rows: 10px 10px;
+    grid-template-columns: 10px 10px;
+    grid-gap: 300px 300px;
+    margin: 0 0 0 300px;
+    align-content: center;
+}
+
+.Imagenes .gridA img{
+    height: 250px;
+    width: 250px;
+}
+
+.Imagenes .gridB img{
+    height: 300px;
+    width: 230px;
+}
+
+#grid{
+    background-color: red;    
+}
+
+/*-----------------------------------------------------------------------contacto-----------------------------------------------------------*/
+input[type=text]{
+    font-family: Tahoma, Geneva, sans-serif;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.BoxContact{
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    margin: 300px 150px 0px 150px;
+}
+
+.BoxContact h1{
+    font-size: 2em;
+    margin: 50px 150px 0px 420px;
+}
+
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*-----------------------------------------------------------------------fin contacto*/
+
+section{
+    height: 100vh;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
